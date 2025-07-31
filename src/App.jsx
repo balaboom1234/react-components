@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const Button = () => {
   return (
     <button className="add-to-cart-button-secondary">
@@ -7,6 +8,7 @@ const Button = () => {
     </button>
   );
 };
+
 
 const Header = () => {
   return (
@@ -24,6 +26,7 @@ const Header = () => {
     </header>
   );
 };
+
 
 const ProductSection = () => {
   return (
@@ -50,6 +53,7 @@ const ProductSection = () => {
   );
 };
 
+
 const MainContent = () => {
   return (
     <main className="site-main">
@@ -66,6 +70,7 @@ const Footer = () => {
     </footer>
   );
 };
+
 
 export default function App() {
   return (
